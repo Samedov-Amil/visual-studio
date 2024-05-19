@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+
+*{
+    text-decoration: none;
+    
+}
+
+
+
+
+.introduction .intro-left-side h1 span{
+    color: #FF8A56;
+}
+ 
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+   
+    
+    
+}
+
+header h1{
+    color: #f10f0f;
+    font-size: 20px;
+    font-family: "Sedan SC", serif;
+}
+
+
+
+header nav a{
+    color:#006a4e;
+    margin-right: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+
+}
+
+@media(max-width:575px){
+    .parentdiv{
+        max-width: 100%;
+    }
+}
+
+@media(min-width:576px){
+    .parentdiv{
+        max-width:540px;
+        margin: 0 auto;
+    }
+    
+}
+
+@media(min-width:768px){
+    .parentdiv{
+        max-width:720px;
+        margin: 0 auto;
+    }
+}
+@media(min-width:992px){
+    .parentdiv{
+        max-width:960px;
+        margin: 0 auto;
+    }
+
+    .introduction{
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .introduction .intro-left-side h1 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+
+    .introduction .intro-left-side{
+      padding: 92px 0;
+    }
+
+    .introduction .intri-right-side{
+        padding-top: 72px;
+    }
+
+    .book-a-call{
+     margin-top: 40px;
+
+    }
+
+    .introduction .intro-left-side .book{
+        background-color: #222;
+        color: white;
+        width: 151px;
+        height: 58px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+   
+    
+    
+}
+
+ 
+
+@media(min-witdh:1200px){
+    .parentdiv{
+        max-width:1140px;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+    
+  
+
+
+
+
+
